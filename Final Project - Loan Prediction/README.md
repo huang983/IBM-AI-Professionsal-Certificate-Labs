@@ -59,7 +59,16 @@ yhat = neigh.predict(X_test)
 ```
 
 ## Approach 2: Decision Tree
-
+```buildoutcfg
+1. Each node corresponds to a test (category)
+2. Each branch corresponds to a result of the test
+3. Each leaf node assigns a classification
+4. Steps to build a decision tree
+    I. Choose an attribute from dataset
+   II. Calculate the significance of attribute in splitting of data
+  III. Split data based on the value of the best attribute
+   IV. Back to I
+```
 
 ## Evaluation Metrics
 1. Jaccard index:
