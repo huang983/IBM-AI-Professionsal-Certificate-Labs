@@ -22,7 +22,11 @@ Gender                |
     3. numpy
     4. matplotlib
     
-# Functions 
+## Load data from csv file
+```python
+import pandas as pd
+df = pd.read_csv('loan_train.csv')
+```
 
 ## Preprocessing:
  ```python
@@ -47,6 +51,12 @@ Gender                |
 4. Predict the response of the unkown data point using the most popular response value from the K-nearest neighbors
 ```
 
+```python
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn import metrics
+neigh = KNeighborsClassifier(n_neighbors = best_k).fit(X_train,y_train)
+yhat = neigh.predict(X_test)
+```
 
 ## Evaluation Metrics
 1. Jaccard index:
