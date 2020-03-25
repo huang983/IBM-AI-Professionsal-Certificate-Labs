@@ -75,7 +75,21 @@ DT_model = DecisionTreeClassifier(criterion="entropy", max_depth = 4)
 DT_model.fit(X_train,y_train)
 yhat = DT_model.predict(X_test)
 ```
-## Approach 3: Logistic Regression
+
+## Approach 3: Support Vector Machine
+```buildoutcfg
+1. Supervised algorithm that classifies cases by finding a separator
+2. Mapping data into a high-dimensional feature space (kerneling)
+3. Finding a separator
+```
+
+```python
+from sklearn import svm
+SVM_model = svm.SVC()
+SVM_model.fit(X_train, y_train)
+yhat = SVM_model.predict(X_test)
+```
+## Approach 4: Logistic Regression
     1. Binary data
     2. Probabilistic results
     3. Linearly separable data
