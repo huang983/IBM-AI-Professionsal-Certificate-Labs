@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # Loan Repayment Prediction Using Machine Learning
 Use an ML model to determine if the borrower has the ability to repay its loan
 
