@@ -69,6 +69,12 @@ yhat = neigh.predict(X_test)
   III. Split data based on the value of the best attribute
    IV. Back to I
 ```
+```python
+from sklearn.tree import DecisionTreeClassifier
+DT_model = DecisionTreeClassifier(criterion="entropy", max_depth = 4)
+DT_model.fit(X_train,y_train)
+yhat = DT_model.predict(X_test)
+```
 
 ## Evaluation Metrics
 1. Jaccard index:
