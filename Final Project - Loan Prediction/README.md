@@ -41,7 +41,7 @@ df = pd.read_csv('loan_train.csv')
 
 ## Approach 1: KNN Algorithm
 
-- Classifying cases bsed on their similarity to other cases
+- Classifying cases based on their similarity to other cases
 - Cases near each other are said to be neighbors
 
 ```buildoutcfg
@@ -58,10 +58,13 @@ neigh = KNeighborsClassifier(n_neighbors = best_k).fit(X_train,y_train)
 yhat = neigh.predict(X_test)
 ```
 
+## Approach 2: Decision Tree
+
+
 ## Evaluation Metrics
 1. Jaccard index:
     * y: actual labels
-    * y_hat: predicted labels
+    * yhat: predicted labels
     * Accuracy = intersection(y, y_hat) / union(y, y_hat)
         
 2. Confusion matrix:
