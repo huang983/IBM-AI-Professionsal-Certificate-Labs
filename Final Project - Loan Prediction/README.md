@@ -31,4 +31,3 @@ Field|
     from sklearn import preprocessing
     X = preprocessing.StandardScaler().fit(X).trasnform(X) 
 ```
->>>>>>> 0358e50b9d71ab6daf7967ad7dee1b0488060d79
