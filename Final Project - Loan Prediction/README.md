@@ -22,7 +22,7 @@ Use an ML model to determine if the borrower has the ability to repay its loan
     3. numpy
     4. matplotlib
     
-# Functions
+# Functions 
 
 ## Preprocessing:
  ```python
