@@ -65,7 +65,7 @@ yhat = neigh.predict(X_test)
 3. Each leaf node assigns a classification
 4. Steps to build a decision tree
     I. Choose an attribute from dataset
-   II. Calculate the significance of attribute in splitting of data
+   II. Calculate the significance of attribute in splitting of data (more significance = more predictiveness, less impurity, lower entropy)
   III. Split data based on the value of the best attribute
    IV. Back to I
 ```
