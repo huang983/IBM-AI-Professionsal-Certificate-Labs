@@ -5,7 +5,7 @@ Use an ML model to determine if the borrower has the ability to repay its loan
     1. Loan_train.csv
     2. Loan_test.csv
     
-Field          | 
+Field|
     |-----------------------|
     | Loan_status           |
     | Principal             |
