@@ -1,5 +1,5 @@
 # Loan Repayment Prediction Using Machine Learning
-Use an ML model to determine if the borrower has the ability to repay its loan
+Use an ML model to determine if the borrower has the ability to repay his/her loan
 
 Reference: https://www.coursera.org/learn/machine-learning-with-python
 
