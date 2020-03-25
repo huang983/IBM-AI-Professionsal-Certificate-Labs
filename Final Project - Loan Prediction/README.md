@@ -8,15 +8,15 @@ Use an ML model to determine if the borrower has the ability to repay its loan
     2. Loan_test.csv
     
 Field|
-    |-----------------------|
-    | Loan_status           |
-    | Principal             |
-    | Terms                 |
-    | Effective Date        |
-    | Due_date              |
-    | Age                   |
-    | Education             |
-    | Gender                |
+-----------------------|
+Loan_status           |
+Principal             |
+Terms                 |
+Effective Date        |
+Due_date              |
+Age                   |
+Education             |
+Gender                |
 
 # Library:
     1. sklearn
