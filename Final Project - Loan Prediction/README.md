@@ -75,6 +75,16 @@ DT_model = DecisionTreeClassifier(criterion="entropy", max_depth = 4)
 DT_model.fit(X_train,y_train)
 yhat = DT_model.predict(X_test)
 ```
+## Approach 3: Logistic Regression
+    1. Binary data
+    2. Probabilistic results
+    3. Linearly separable data
+    
+```python
+from sklearn.linear_model import LogisticRegression
+LR_model = LogisticRegression(C=0.01).fit(X_train,y_train)
+yhat = LR_model.predict(X_test)
+```
 
 ## Evaluation Metrics
 1. Jaccard index:
