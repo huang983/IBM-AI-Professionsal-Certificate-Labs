@@ -48,7 +48,7 @@ df = pd.read_csv('loan_train.csv')
 
 ```buildoutcfg
 1. Pick a value for K
-2. Calculate the distancfe of unkown case from all cases
+2. Calculate the distance of unknown case from all cases
 3. Select the K-observations in the training data that are nearest to the unkown data point
 4. Predict the response of the unkown data point using the most popular response value from the K-nearest neighbors
 ```
